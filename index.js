@@ -1,9 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import multer from 'multer';
-import nodemailer from 'nodemailer';
-import path from 'path';
-import fs from 'fs';
+
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
